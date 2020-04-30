@@ -1,7 +1,54 @@
 {
   "RSpec": {
     "coverage": {
+      "/home/bixou/Rails/Alice/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/bixou/Rails/Alice/app/lib/finicity/client.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        5,
+        2,
+        null,
+        3,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
+        null,
+        null,
+        2,
+        null,
+        null,
+        null,
+        2,
+        2,
+        null,
+        2,
+        null,
+        null,
+        null,
+        null
+      ]
     },
-    "timestamp": 1588181861
+    "timestamp": 1588266756
   }
 }
