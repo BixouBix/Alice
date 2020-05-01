@@ -1,3 +1,4 @@
+require 'net/http'
 module Finicity
   PARTNER_SECRET = ENV['PARTNER_SECRET']
   FINICITY_APP_KEY = ENV['FINICITY_APP_KEY']
@@ -6,11 +7,7 @@ module Finicity
   class Client
     class << self
       def token
-        if @last_updated && @last_updated < DateTime.now - 2.hours
-          @token = get_token
-        else
-          @token ||= get_token
-        end
+        @last_updated && @last_updated < DateTime.now - 2.hours ? @token = get_token : @token ||= get_token
       end
 
       private
