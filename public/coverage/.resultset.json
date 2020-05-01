@@ -5,56 +5,11 @@
         1,
         null
       ],
-      "/home/bixou/Rails/Alice/app/models/institution.rb": [
+      "/home/bixou/Rails/Alice/app/helpers/institutions_helper.rb": [
         1,
-        null
-      ],
-      "/home/bixou/Rails/Alice/app/models/application_record.rb": [
-        1,
-        1,
-        null
-      ],
-      "/home/bixou/Rails/Alice/app/lib/finicity/client.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
         null
       ]
     },
-    "timestamp": 1588301876
+    "timestamp": 1588355349
   }
 }

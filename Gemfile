@@ -37,6 +37,8 @@ gem 'draper', '~> 3.1'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+
 group :development, :test do
   gem 'byebug', '~> 11.0', '>= 11.0.1', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails', '~> 5.1', '>= 5.1.1'

@@ -4,7 +4,7 @@ FactoryBot.define do
     accountTypeDescription { "MyString" }
     phone { "MyString" }
     urlHomeApp { "MyString" }
-    urlLogonpp { "MyString" }
+    urlLogonApp { "MyString" }
     oauthEnabled { false }
     urlForgotPassword { "MyString" }
     urlOnlineRegistration { "MyString" }
