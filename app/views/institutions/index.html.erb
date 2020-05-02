@@ -1,1 +1,10 @@
 <% provide(:title, 'Institutions') %>
+<h3>Institutions</h3>
+<ul>
+  <% @institutions.each do |institution| %>
+  <li>
+    <%= institution.name %>
+  </li>
+  <% end %>
+
+</ol>

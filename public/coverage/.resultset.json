@@ -3,6 +3,10 @@
     "coverage": {
       "/home/bixou/Rails/Alice/app/helpers/application_helper.rb": [
         1,
+        1,
+        0,
+        0,
+        null,
         null
       ],
       "/home/bixou/Rails/Alice/app/helpers/institutions_helper.rb": [
@@ -10,6 +14,6 @@
         null
       ]
     },
-    "timestamp": 1588355349
+    "timestamp": 1588438707
   }
 }
