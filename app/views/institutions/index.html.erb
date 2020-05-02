@@ -1,10 +1,10 @@
 <% provide(:title, 'Institutions') %>
 <h3>Institutions</h3>
+<div class="md-form mt-0">
+  <input type="text" class="form-control" placeholder="Search" aria-laber="Search" >
+</div>
+<%= will_paginate %>
 <ul>
-  <% @institutions.each do |institution| %>
-  <li>
-    <%= institution.name %>
-  </li>
-  <% end %>
-
-</ol>
+  <%= render @institutions %>
+</ul>
+<%= will_paginate %>
