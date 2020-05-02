@@ -1,8 +1,18 @@
 <% provide(:title, 'Institutions') %>
 <h3>Institutions</h3>
-<div class="md-form mt-0">
-  <input type="text" class="form-control" placeholder="Search" aria-laber="Search" >
-</div>
+<%= form_tag institutions_path, method: :get do %>
+  <%= text_field_tag :name, params[:name], class: 'form-control', placeholder: 'Name' %>
+<% end %>
+<%= form_tag institutions_path, method: :get do %>
+  <%= text_field_tag :state, params[:state], class: 'form-control', placeholder: 'State' %>
+<% end %>
+<%= form_tag institutions_path, method: :get do %>
+  <%= text_field_tag :country, params[:country], class: 'form-control', placeholder: 'Country' %>
+<% end %>
+<!-- <div class="md-form mt-0">
+  <input type="text" class="form-control" placeholder="Search" aria-laber="Search" params="search" >
+</div> -->
+<hr>
 <%= will_paginate %>
 <ul>
   <%= render @institutions %>

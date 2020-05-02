@@ -11,7 +11,6 @@ FactoryBot.define do
     klass { "MyString" }
     specialText { "MyString" }
     specialInstructions { "MyString" }
-    address { "" }
     currency { "MyString" }
     email { "MyString" }
     status { "MyString" }

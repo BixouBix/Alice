@@ -3,13 +3,13 @@
 <p>Phone: <%= @institution.phone %></p>
 <p>Home App: <%= @institution.urlHomeApp %></p>
 <p>Address:</p>
-<p class="address">City: <%= @institution.address['city'] %></p>
-<p class="address">State: <%= @institution.address['state'] %></p>
-<p class="address">Country: <%= @institution.address['country'] %></p>
-<p class="address">Postal Code: <%= @institution.address['postalCode'] %></p>
-<p class="address">Address line 1: <%= @institution.address['addressLine1'] %></p>
-<p class="address">Address line 2: <%= @institution.address['addressLine2'] %></p>
+<p class="address">City: <%= @institution.city %></p>
+<p class="address">State: <%= @institution.state %></p>
+<p class="address">Country: <%= @institution.country %></p>
+<p class="address">Postal Code: <%= @institution.pc %></p>
+<p class="address">Address line 1: <%= @institution.address_line_1 %></p>
+<p class="address">Address line 2: <%= @institution.address_line_2 %></p>
 <p>Currency: <%= @institution.currency %></p>
 <% if @institution.email %>
-  <p>e-mail: <%= @institution.email %></p>
+  <p>Email: <%= @institution.email %></p>
 <% end %>

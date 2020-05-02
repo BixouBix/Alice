@@ -6,17 +6,14 @@ RSpec.describe InstitutionsController, type: :controller do
   describe "GET #index" do
     it "returns http success" do
       get :index
-      ap response['title']
-      ap response.inspect
-      expect(response).to have_http_status(:success)
-      expect(subject.instance_variable_get(:@institutions)).to match_array(institutions)
+      expect(response).to be_successful
     end
   end
 
-  describe "GET #search" do
+  describe "GET #show" do
     it "returns http success" do
-      get :search
-      expect(response).to have_http_status(:success)
+      get :show, params: {id: institutions.first.id}
+      expect(response).to be_successful
     end
   end
 

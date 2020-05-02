@@ -1,9 +1,6 @@
 class InstitutionsController < ApplicationController
   def index
-    @institutions = Institution.paginate(page: params[:page], per_page: 15)
-  end
-
-  def search
+    @institutions = Institution.search(params).paginate(page: params[:page], per_page: 5)
   end
 
   def show
